@@ -1,0 +1,10 @@
+<template name="Header">
+  <div class="ui top fixed borderless inverted menu">
+    <div class="ui container">
+      <div class="item"><h1>flowrouter-refresh</h1></div>
+      <a class="{{ isActiveRoute 'Home_Page'}} item" href="{{ pathFor 'Home_Page' }}">Home </a>
+      <a class="{{ isActiveRoute 'Foo_Page'}} item" href="{{ pathFor 'Foo_Page' }}">Foo </a>
+      <a class="{{ isActiveRoute 'Bar_Page'}} item" href="{{ pathFor 'Bar_Page' }}">Bar</a>
+    </div>
+  </div>
+</template>
