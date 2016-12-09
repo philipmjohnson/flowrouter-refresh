@@ -12,6 +12,6 @@ $ meteor npm install
 $ meteor run
 ```
 
-Here's what the bar page looks like. Refreshing keeps you on that same page:
+Here's what the bar page looks like. Refreshing keeps you on that same page, which is not what RadGrad currently does in similar circumstances. You may want to look at [router.js](https://github.com/philipmjohnson/flowrouter-refresh/blob/master/app/imports/startup/client/router.js).
 
 ![](flowrouter-refresh.png)
